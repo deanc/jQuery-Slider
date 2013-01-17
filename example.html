@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="jquery.slider.css" rel="stylesheet">
+    <style type="text/css">
+        /* turn off responsive images inside the slider for this example */
+        .dcSlider img { max-width: none; }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>jQuery Slider Example</h1>
+    <p>See the slider below!</p>
+
+    <div id="slider" class="dcSlider">
+        <div class="slider-holder">
+            <ul>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+                <li><img src="http://placehold.it/1170x400" /></li>
+            </ul>
+        </div>
+        <ul class="controls">
+            <li><a class="slider-prev">Previous</a></li>
+            <li><a class="slider-next">Next</a></li>
+        </ul>
+    </div>
+
+
+
+
+</div> <!-- /container -->
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.slider.js"></script>
+<script type="text/javascript">
+    $("#slider").slider({showPager: false});
+</script>
+
+</body>
+</html>

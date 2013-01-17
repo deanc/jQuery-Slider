@@ -1,0 +1,26 @@
+{
+  "name": "slider",
+  "title": "jQuery Slider",
+  "description": "A fast, lightweight slider implementation with many configuration options.",
+  "keywords": [
+      "slider"
+  ],
+  "version": "0.5.0",
+  "author": {
+    "name": "Dean Clatworthy",
+    "url": "http://www.deanclatworthy.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+    }
+  ],
+    "bugs": "https://github.com/deanc/jQuery-Slider/issues",
+    "homepage": "https://github.com/deanc/jQuery-Slider",
+    "docs": "https://github.com/deanc/jQuery-Slider",
+    "download": "http://github.com/deanc/jQuery-Slider",
+    "dependencies": {
+      "jquery": ">=1.5"
+    }
+}

@@ -1,0 +1,10 @@
+.slider-holder {
+    overflow: hidden;
+}
+.dcSlider .slider-holder ul {
+    margin: 0;
+}
+.dcSlider .slider-holder ul li {
+    float: left;
+    display: inline;
+}
