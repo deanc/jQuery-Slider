@@ -53,4 +53,4 @@ Options
 
 `prevClass` The CSS class to be applied to the previous slide control. Defaullt `slider-prev`
 
-'nextClass` The CSS class to be applied to the next slide control. Default `slider-next`
+`nextClass` The CSS class to be applied to the next slide control. Default `slider-next`
